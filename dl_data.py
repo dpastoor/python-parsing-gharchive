@@ -12,7 +12,7 @@ for mon in range(6, 13):
     month = str(mon) if mon > 9 else "0" + str(mon)
     for day in range(1, days+1):
         day_str = str(day) if day > 9 else "0" + str(day)
-        for hour in range(1, 24):
+        for hour in range(0, 24):
             download_urls.append(str(BASE) + str(year) + "-" + month + "-" + day_str + "-" + str(hour) + ".json.gz")
  
 mon = 1
@@ -21,7 +21,7 @@ days = 20
 month = str(mon) if mon > 9 else "0" + str(mon)
 for day in range(1, days+1):
     day_str = str(day) if day > 9 else "0" + str(day)
-    for hour in range(1, 24):
+    for hour in range(0, 24):
         dl_url = str(BASE) + str(year) + "-" + str(month) + "-" + day_str + "-" + str(hour) + ".json.gz"
         download_urls.append(dl_url)      
 
