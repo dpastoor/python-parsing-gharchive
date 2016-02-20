@@ -1,0 +1,10 @@
+README.rst
+setup.py
+gh_parse/__init__.py
+gh_parse/main.py
+gh_parse.egg-info/PKG-INFO
+gh_parse.egg-info/SOURCES.txt
+gh_parse.egg-info/dependency_links.txt
+gh_parse.egg-info/entry_points.txt
+gh_parse.egg-info/requires.txt
+gh_parse.egg-info/top_level.txt
