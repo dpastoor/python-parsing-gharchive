@@ -1,0 +1,3 @@
+[console_scripts]
+gh_parse = gh_parse.main:start
+

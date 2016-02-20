@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: gh-parse
+Version: 1.0.0
+Summary: Github archive parser
+Home-page: http://www.github.com/github-compass/gh-archive-parser
+Author: Ben Balaran
+Author-email: bbalaran@icloud.com
+License: MIT License
+Description: racks
+        ======
+        
+        simple cli app giving you racked line graphs based on numeric input.
+        
+        ================
+        working example
+        ================
+        .. code-block:: bash
+        
+            racks 1 2 3 4 5 6
+            ▁ ▂ ▃ ▅ ▆ ▇
+        
+        Contribution
+        ============
+        
+        Unlikely needed but if you find something broken or incomplete please submit pull request on Github. http://www.github.com/myusuf3/racks
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
